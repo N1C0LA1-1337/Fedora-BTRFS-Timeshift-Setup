@@ -65,7 +65,7 @@ To resolve this, open the terminal and execute the following command."
 In order to fix this issue we are going to paste this command into the terminal and execute it:
 "sudo grub2-editenv - unset menu_auto_hide"
 
-Next up we are going to a few applications that will come in handy later: 
+Next up we are going to install a few applications that will come in handy later: 
 "sudo dnf install git inotify-tools make timeshift"
 
 After this step you can update your system with "sudo dnf update" and restart it if you want to. You can also skip this part and do it at the end of the setup. Personal preference in this case.
